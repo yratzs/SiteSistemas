@@ -1,0 +1,123 @@
+*{
+    font-family: 'Dosis', sans-serif;
+        font-family: 'Noto Sans', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Vollkorn', serif;
+}
+body{
+background-image: linear-gradient(to bottom, #000000, #383434, #000000);
+}
+
+.image{
+    width: 550px;
+    margin-bottom: 50px;
+    border-radius: 35px;
+}
+.font{
+    color: white;
+    font-size: 17px;
+}
+.kl{
+    border: 3px solid#999;
+    width: 500px;
+    height: 500px;
+}
+.sections-img1{
+width: 400px;
+height: 400px;
+margin-left: 150px;
+}
+.section-img1 img{
+    width: 100%;
+    height: 100%;
+}
+.section-txt1{
+    margin-left: 100px;
+}
+
+.sections-img2 {
+    width: 400px;
+    height: 400px;
+    margin-left: 115px;
+    margin-top: 90px;
+}
+
+.section-img2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.section-txt2 {
+    margin-left: 150px;
+    margin-top: 900px;
+}
+
+
+#news-area{
+    text-align: center;
+    background-color: #242323;
+}
+#news-area p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+#email-input{
+    border-radius: 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 1px solid#c80808;
+    display: inline;
+    box-sizing: border-box;
+    width: 40%;
+    height: 40px;
+    
+}
+
+#news-btn{
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border: 1px solid#c80808;
+    background-color: #c80808;
+    text-transform: uppercase;
+    color: white;
+    height: 40px;
+    padding: 0 30px;
+    margin-left: -130px;
+    position: absolute;
+    transition: .5s;
+}
+#news-btn:hover{
+    background-color: #000000;
+}
+
+
+#investidores {
+    background-color: #000000;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#investidores h2 {
+    font-size: 32px;
+    color: #ffffff;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+#investidores .botao-investir {
+    display: inline-block;
+    background-color: #ff0000;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 50px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+#investidores .botao-investir:hover {
+    background-color: #000000;
+    border: 1px solid#ff0000;
+}
+
+
